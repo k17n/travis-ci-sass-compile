@@ -27,7 +27,7 @@ run_it()
 {
 	
 	local _src="${1-scss/style.scss}"
-	local _dest="${2-$(dirname "${BASH_SOURCE[0]}")/output/$(basename ${_src}).css}"
+	local _dest="${2-css/style.css}"
 	local _options="${3---style=compressed}"
 
 	# ----------------------------------------------------------------------------
