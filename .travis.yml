@@ -1,5 +1,5 @@
 script:
- - "sass-compile-test.sh"
+ - "test/sass-compile-test.sh"
 
 language: sass
 before_install:
