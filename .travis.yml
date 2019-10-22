@@ -1,7 +1,7 @@
 script:
  - "test/sass-compile-check.sh"
 
-language: sass
+language: node_js
 before_install:
- - gem install sass
+ - npm install -g sass
  - chmod +x test/sass-compile-check.sh
